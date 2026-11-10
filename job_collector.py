@@ -218,7 +218,7 @@ def main():
     send_wechat(f"每日岗位推送（{len(new_valid_jobs)}个新岗）", wechat_text)
 
     # 保存去重历史
-    save_history(history)
+    # save_history(history)
     print(f"运行完成，今日新增符合条件岗位：{len(new_valid_jobs)} 个")
 
 if __name__ == "__main__":
